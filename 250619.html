@@ -16,7 +16,7 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            background-color: #ffffff;
+            background-color: #fce6e6;
             overflow: hidden;
         }
         
@@ -62,7 +62,7 @@
             cursor: pointer;
             margin-left: 5px;
             white-space: nowrap;
-            font-size: 22px;
+            font-size: 10px;
         }
         
         /* 工具栏 */
@@ -70,7 +70,7 @@
             display: flex;
             justify-content: flex-end;
             padding: 5px 10px;
-            background-color: #7a80a4;
+            background-color: #bbabd0;
 
         }
         
@@ -357,7 +357,7 @@
     <!-- 工具栏 -->
     <div class="toolbar">
         <button class="tool-button" id="configButton">🔗</button>
-        <button class="tool-button" id="appearanceButton">🎨</button>
+        <button class="tool-button" id="appearanceButton">✨️</button>
     </div>
     
     <!-- 聊天容器 -->
@@ -908,7 +908,7 @@
             // 添加"新建聊天"按钮
             const addBtn = document.createElement('button');
             addBtn.className = 'add-tab';
-            addBtn.textContent = '+';
+            addBtn.textContent = '✚';
             addBtn.addEventListener('click', createNewChat);
             elements.chatTabs.appendChild(addBtn);
         }
