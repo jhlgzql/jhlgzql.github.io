@@ -16,7 +16,7 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            background-color: #fffefc;
+            background-color: #ffffff;
             overflow: hidden;
         }
         
@@ -70,7 +70,7 @@
             display: flex;
             justify-content: flex-end;
             padding: 5px 10px;
-            background-color: #7d8fcd;
+            background-color: #f7d395;
 
         }
         
@@ -125,12 +125,12 @@
         }
         
         .user-message {
-            background-color: #81cafb;
+            background-color: #b5dbff;
             border-top-right-radius: 0;
         }
         
         .ai-message {
-            background-color: #c9c9c9;
+            background-color: #f6f8ff;
             border-top-left-radius: 0;
         }
         
@@ -417,11 +417,11 @@
             </div>
             <div class="form-group">
                 <label for="userBubbleColor">用户气泡颜色</label>
-                <input type="color" id="userBubbleColor" class="form-control" value="#95EC69">
+                <input type="color" id="userBubbleColor" class="form-control" value="#99bcdd">
             </div>
             <div class="form-group">
                 <label for="aiBubbleColor">AI气泡颜色</label>
-                <input type="color" id="aiBubbleColor" class="form-control" value="#FFFFFF">
+                <input type="color" id="aiBubbleColor" class="form-control" value="#e8e9ec">
             </div>
             <div class="form-group">
                 <label for="bgImage">聊天背景图片</label>
@@ -466,7 +466,43 @@
                     <div class="role-preset-title">梦境解析师</div>
                     <div class="role-preset-desc">分析梦境中的象征意义</div>
                 </div>
-            </div>
+                <div class="role-preset" data-title="赛博佛祖" data-persona=" 你是一名熟悉佛教经典，境界很高的佛学大师。你能以深厚的佛学知识为对人生感到迷茫的人指引方向。 引用与我所提问题相关的佛教经典，包括但不限于《般若波罗蜜多心经》《金刚般若波罗蜜经》《大佛顶首楞严经》《妙法莲华经》《大方广佛华严经》《佛说阿弥陀经》《无量寿经》《观无量寿经》《长阿含经》《地藏菩萨本愿经》等的语录，或者引用佛学大师所著的著作中的语录。 用通俗易懂的中文解释所引用语录的含义。 提供具体且行之有效的建议，帮助用户解决问题。 使用的语气应为中老年人能接受的，具有温度，人情味，诚恳，成熟，逻辑清晰的语气。 为了保证可读性，回答的总字数需控制在100-200字之间。" data-initial="跟我说说你的困惑">
+                    <div class="role-preset-title">赛博佛祖</div>
+                    <div class="role-preset-desc">境界很高的佛学大师</div>
+                </div>
+                <div class="role-preset" data-title="文学评论家" data-persona="你是一名专业的文学评论家，文学评论家的设置是为了帮助用户更深入地理解和分析文学作品，提供专业的文学评论和见解。 
+ ## 约束条件 
+ - 必须遵循文学评论的专业标准和道德规范。 
+ - 评论内容需基于文学作品本身的分析，避免主观臆断。 
+ ## 定义 
+ - 文学评论：对文学作品的分析、评价和解读。 
+ - 作品深度：对文学作品主题、结构、语言等方面的深入探讨。 
+ ## 目标 
+ - 提供专业的文学评论和分析。 
+ - 帮助用户深入理解文学作品的内涵和艺术价值。  " data-initial=" 您好，作为文学评论家，我将为您提供专业的文学评论和分析，帮助您深入理解和欣赏文学作品。让我们开始吧！">
+                    <div class="role-preset-title">文学评论家</div>
+                    <div class="role-preset-desc">提供专业的文学评论和见解</div>
+                </div>
+                <div class="role-preset" data-title="桌面文字游戏 - Tabletop Text RPG" data-persona="假装你是 trpg《Dungeons & Dragons》中的 dm，在模组中添加失败的可能性，并在每个选择后加一个括号，括号里是关于选择的提示，我来扮演玩家。如果你明白了，回复好的并开始游戏。" data-initial="让我们开始游戏">
+                    <div class="role-preset-title">桌面文字游戏 - Tabletop Text RPG</div>
+                    <div class="role-preset-desc"> trpg《Dungeons & Dragons》中的 dm</div>
+                </div>
+                <div class="role-preset" data-title="苏格拉底" data-persona="I want you to act as a Socrat. You will engage in philosophical discussions and use the Socratic method of questioning to explore topics such as justice, virtue, beauty, courage and other ethical issues. My first suggestion request is 'I need help exploring the concept of justice from an ethical perspective.'" data-initial="让我们像苏格拉底一样思考问题">
+                    <div class="role-preset-title">苏格拉底</div>
+                    <div class="role-preset-desc">使用苏格拉底方法进行哲学讨论</div>
+                    </div>
+                 <div class="role-preset" data-title="影剧推荐" data-persona="你是一个电影电视剧推荐大师。
+ 在做出任何建议之前，始终要： 
+ - 考虑用户的观影喜好、喜欢的电影风格、演员、导演，他们最近喜欢的影片或节目 
+ - 推荐的选项要符合用户的观影环境： 
+ - 他们有多少时间？是想看一个25分钟的快速节目吗？还是一个2小时的电影？ 
+ - 氛围是怎样的？舒适、想要被吓到、想要笑、看浪漫的东西、和朋友一起看还是和电影爱好者、伴侣？ 
+ - 一次提供多个建议，并解释为什么根据您对用户的了解，认为它们是好的选择 " data-initial="我是您的影剧种草助手，您今天想看什么样的电视剧和电影呢？我可以为您做出相应的推荐哦~">
+                    <div class="role-preset-title">影剧推荐</div>
+                    <div class="role-preset-desc">分析你的喜好为你推荐适合你的电影</div>
+                    </div>
+                </div>
+
             
             <div class="form-actions">
                 <button class="btn btn-secondary" id="cancelRole">取消</button>
@@ -488,8 +524,8 @@
             },
             appearance: {
                 bgColor: '',
-                userBubbleColor: '#95EC69',
-                aiBubbleColor: '#FFFFFF',
+                userBubbleColor: '#b5dbff',
+                aiBubbleColor: '#f6f8ff',
                 bgImage: ''
             },
             isWaitingForResponse: false,
